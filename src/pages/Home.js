@@ -12,12 +12,12 @@ function Home() {
           <div className="card m-1">
             <div className="card-header">
               <h5 className="card-title">React beginner</h5>
-              <h6 className="card-subtitle text-muted">SPA 웹사이트 만들기 튜토리얼</h6>
+              <h6 className="card-subtitle text-muted">SPA(Single Page Application) Tutorial</h6>
             </div>
             <div className="card-body">
-              <p className="card-text"><a href="/react_SinglePageApplication/heroes">Heroes</a></p>
-              <p className="card-text"><a href="/react_SinglePageApplication/scoreboard">Scoreboard</a></p>
-              <p className="card-text"><a href="/react_SinglePageApplication/product">Product</a></p>
+              <p className="card-text">Heroes</p>
+              <p className="card-text">Scoreboard</p>
+              <p className="card-text">Product</p>
             </div>
           </div>
         </div>
