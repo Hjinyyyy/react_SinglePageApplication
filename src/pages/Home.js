@@ -15,9 +15,9 @@ function Home() {
               <h6 className="card-subtitle text-muted">SPA 웹사이트 만들기 튜토리얼</h6>
             </div>
             <div className="card-body">
-              <p className="card-text"><a href="/react_SinglePageApplication/heroes">Heroes</a></p>
-              <p className="card-text"><a href="/react_SinglePageApplication/scoreboard">Scoreboard</a></p>
-              <p className="card-text"><a href="/react_SinglePageApplication/product">Product</a></p>
+              <p className="card-text"><a href="/heroes">Heroes</a></p>
+              <p className="card-text"><a href="/scoreboard">Scoreboard</a></p>
+              <p className="card-text"><a href="/product">Product</a></p>
             </div>
           </div>
         </div>

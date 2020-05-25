@@ -14,9 +14,9 @@ export function Root() {
         <div className="container py-3" style={{backgroundColor: '#ffffff'}}>
           <Switch>
             <Route exact path="/react_SinglePageApplication" component={Home}></Route>
-            <Route path="/react_SinglePageApplication/heroes" component={Index}></Route>
-            <Route path="/react_SinglePageApplication/scoreboard" component={Scoreboard}></Route>
-            <Route path="/react_SinglePageApplication/product" component={FilterableProductTable}></Route>
+            <Route path="/heroes" component={Index}></Route>
+            <Route path="/scoreboard" component={Scoreboard}></Route>
+            <Route path="/product" component={FilterableProductTable}></Route>
           </Switch>
         </div>
       </>
