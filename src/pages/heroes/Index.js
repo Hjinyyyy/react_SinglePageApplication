@@ -19,7 +19,7 @@ export const Index = (props) => {
       <Switch>
         <Route path="/react_SinglePageApplication/heroes/hero" component={Heroes}></Route>
         <Route path="/react_SinglePageApplication/heroes/register" component={Register}></Route>
-        <Route path="/react_SinglePageApplication/heroes" render={() => <Redirect to="/heroes/hero" />} />
+        <Route path="/react_SinglePageApplication/heroes" render={() => <Redirect to="/react_SinglePageApplication/heroes/hero" />} />
       </Switch>
     </>
   )
