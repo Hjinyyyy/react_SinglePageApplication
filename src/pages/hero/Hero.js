@@ -25,7 +25,7 @@ const Hero = (props) => {
       api.delete(`/api/admin/hero?id=${props.match.params.id}`)
         .then(response => {
           console.log(response.data);
-          props.history.push('/heroes/hero'); // this.props.router.push('/heroes/hero'); 3.0.0+
+          props.history.push('/react_SinglePageApplication/heroes/hero'); // this.props.router.push('/heroes/hero'); 3.0.0+
 
           // publish to parent
           dispatch(refreshHero());

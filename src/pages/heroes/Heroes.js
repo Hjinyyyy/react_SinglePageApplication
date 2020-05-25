@@ -30,13 +30,13 @@ const Heroes = (props) => {
   const handleClick = (event, id) => {
     console.log(event, id);
     event.preventDefault();
-    props.history.push(`/heroes/hero/${id}`);
+    props.history.push(`/react_SinglePageApplication/heroes/hero/${id}`);
   }
   
   return (
     <>
       <Switch>
-        <Route path="/heroes/hero/:id" component={Hero}></Route>
+        <Route path="/react_SinglePageApplication/heroes/hero/:id" component={Hero}></Route>
       </Switch>
       
       <div className="row">
