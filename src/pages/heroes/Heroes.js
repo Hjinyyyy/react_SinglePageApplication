@@ -54,7 +54,7 @@ const Heroes = (props) => {
         ))}
         <div className="col-6 col-sm-4 col-md-3 p-1 p-sm-2 p-md-3">
           <div className="card" onClick={(e) => handleClick(e)} style={{cursor: 'pointer'}}>
-            <img src='/images/baseline-face-24px.svg' alt="hero_test" width="100%" />
+            <img src='https://res.cloudinary.com/dfnrzktmy/image/upload/v1590414875/baseline-face-24px_gcwfu6.svg' alt="hero_test" width="100%" />
             <div className="card-body">
               <h5 className="card-title">hero_test</h5>
               <p className="card-text">a@aaa.com</p>
