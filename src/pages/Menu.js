@@ -19,20 +19,20 @@ const Menu = (props) => {
   return (
     <Navbar color="dark" dark expand="md">
       <div className="container">
-        <NavLink to="/" className="navbar-brand">React</NavLink>
+        <NavLink to="/react_SinglePageApplication" className="navbar-brand">React</NavLink>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to="/heroes" className="nav-link">Heroes</NavLink>
+              <NavLink to="/react_SinglePageApplication/heroes" className="nav-link">Heroes</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/scoreboard" className="nav-link">Scoreboard</NavLink>
+              <NavLink to="/react_SinglePageApplication/scoreboard" className="nav-link">Scoreboard</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/product" className="nav-link">Product</NavLink>
+              <NavLink to="/react_SinglePageApplication/product" className="nav-link">Product</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options
               </DropdownToggle>
@@ -48,7 +48,7 @@ const Menu = (props) => {
                   Reset
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
           </Nav>
         </Collapse>
       </div>
