@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react_SinglePageApplication/static/css/main.2dd0361c.chunk.css",
+    "main.js": "/react_SinglePageApplication/static/js/main.f9fff1e5.chunk.js",
+    "main.js.map": "/react_SinglePageApplication/static/js/main.f9fff1e5.chunk.js.map",
+    "runtime-main.js": "/react_SinglePageApplication/static/js/runtime-main.8c42cbd5.js",
+    "runtime-main.js.map": "/react_SinglePageApplication/static/js/runtime-main.8c42cbd5.js.map",
+    "static/css/2.09fc1ccb.chunk.css": "/react_SinglePageApplication/static/css/2.09fc1ccb.chunk.css",
+    "static/js/2.6ce72b67.chunk.js": "/react_SinglePageApplication/static/js/2.6ce72b67.chunk.js",
+    "static/js/2.6ce72b67.chunk.js.map": "/react_SinglePageApplication/static/js/2.6ce72b67.chunk.js.map",
+    "index.html": "/react_SinglePageApplication/index.html",
+    "precache-manifest.b26734560ea160ec19a5acee8dacebd4.js": "/react_SinglePageApplication/precache-manifest.b26734560ea160ec19a5acee8dacebd4.js",
+    "service-worker.js": "/react_SinglePageApplication/service-worker.js",
+    "static/css/2.09fc1ccb.chunk.css.map": "/react_SinglePageApplication/static/css/2.09fc1ccb.chunk.css.map",
+    "static/css/main.2dd0361c.chunk.css.map": "/react_SinglePageApplication/static/css/main.2dd0361c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c42cbd5.js",
+    "static/css/2.09fc1ccb.chunk.css",
+    "static/js/2.6ce72b67.chunk.js",
+    "static/css/main.2dd0361c.chunk.css",
+    "static/js/main.f9fff1e5.chunk.js"
+  ]
+}
